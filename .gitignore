@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Build output
+app/dist/
+app/.vite/
+
+# Environment files (contains secrets)
+.env
+server/.env
+
+# Database files (local SQLite)
+server/*.db
+server/blog.db
+
+# Upload files (local dev)
+server/public/uploads/*
+!server/public/uploads/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+server.log
+
+# Environment (keep example only)
+.env.local
+.env.production
