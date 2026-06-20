@@ -73,7 +73,7 @@ blog-admin/
 ### 1. 克隆项目
 
 ```bash
-git clone https://github.com/your-username/blog-admin.git
+git clone https://github.com/gofreeplay1/bolg.git
 cd blog-admin
 ```
 
